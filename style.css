@@ -74,21 +74,12 @@ section{
     color:var(--yellow);
 }
 
-header{
-    position: fixed;
-    top:0; left:0;
-    z-index: 1000;
-    height:100%;
-    width:35rem;
-    background:#082340;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column;
-    text-align: center;
-}
+
 
 header .user img{
+    position: relative;
+    left: 400px;
+    top: 20px;
     height:17rem;
     width:17rem;
     border-radius: 50%;
@@ -98,11 +89,17 @@ header .user img{
 }
 
 header .user .name{
+    position: relative;
+    left: 280px;
+    top: 20px;
     font-size: 3.5rem;
     color:#fff;
 }
 
 header .user .post{
+    position: relative;
+    left: 420px;
+    top: 20px;
     font-size: 2rem;
     margin-top: 5px;
     color:#eee;
@@ -114,24 +111,30 @@ header .navbar{
 
 header .navbar ul{
     list-style: none;
-    padding:1rem 3rem;
+    padding:2rem 40rem;
 }
 header .navbar1{
-    width:100%;
+    width:20%;
     position: relative;
-    bottom: 300px;
+    right: 70rem;
+   
 }
 
 header .navbar1 ul{
     list-style: none;
-    padding:1rem 3rem;
+    padding:2rem 40rem;
+}
    
 
-}
+
 
 
 header .navbar ul li a{
-    display: block;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    width: 80%;
+    text-align: center;
     padding:1rem;
     margin:1.5rem 0;
     background:rgb(21 139 73 / 80%);
@@ -140,9 +143,14 @@ header .navbar ul li a{
     border-radius: 5rem;
 }
 header .navbar1 ul li a{
-    display: block;
+    
+    position: relative;
+    top: 20px;
+    left: 50px;
+    width: 80%;
+    text-align: center;
     padding:1rem;
-    margin: 1.5rem 0;
+    margin:1.5rem 0;
     background:rgb(21 139 73 / 80%);
     color:#fff;
     font-size: 2rem;
